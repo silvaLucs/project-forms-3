@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Avaliação de mentoria</title>
+  </head>
+  <body>
+    <header>
+      <div id="headerdiv">
+        <h1>Avalie sua mentoria</h1>
+        <p>Chegou a hora de avaliar o seu mentor. Bora lá?</p>
+        <img
+          src="./assets/background-color-header.svg"
+          alt="Balão cor salmão com 5 estrelas para avaliar o mentor."
+        />
+      </div>
+      <div>
+        <h2>Informações Pessoais</h2>
+      </div>
+    </header>
+    <body>
+      <form action="">
+        <div id="flexname">
+          <div class="">
+            <label>Nome</label>
+            <input type="text" name="" id="" />
+          </div>
+          <div class="">
+            <label>Sobrenome</label>
+            <input type="text" name="" id="" />
+          </div>
+        </div>
+
+        <div class="input-wrapper">
+          <label>Email <span>(digite um email valido)</span></label>
+          <input type="email" name="" id="" />
+        </div>
+        <fieldset>
+          Informações do mentor
+          <div class="linediv"></div>
+          <div class="input-wrapper">
+            <label>Selecione quem foi seu mentor</label>
+            <select name="" id="">
+              <option value=""><span>Selecione um mentor</span></option>
+              <option value="">Pedro</option>
+              <option value="">Paulo</option>
+              <option value="">Alex</option>
+            </select>
+          </div>
+          <div class="input-wrapper">
+            <label>Feedback sobre o mentor</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+          </div>
+          <div class="checkboxdiv">
+            <input type="checkbox" />
+            <label>Todas as minhas duvidas foram esclarecidas?</label>
+          </div>
+        </fieldset>
+        <fieldset>
+          Agendando próxima mentoria
+          <div class="linediv"></div>
+
+          <div class="flexdate">
+            <div class="date-wrapper">
+              <label for="">Data <span>(DD/MM/AAAA)</span></label>
+              <input type="date" name="" id="" />
+            </div>
+
+            <div class="date-wrapper">
+              <label for="">Das</label>
+              <input type="time" name="" id="" />
+            </div>
+            <div class="date-wrapper">
+              <label for="">Até</label>
+              <input type="time" name="" id="" />
+            </div>
+          </div>
+        </fieldset>
+
+        <button>Salvar</button>
+      </form>
+    </body>
+  </body>
+</html>
