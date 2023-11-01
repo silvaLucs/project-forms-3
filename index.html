@@ -11,24 +11,32 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./css/reset.css"/>
+    <link rel="stylesheet" href="./css/main.css">
     <title>Avaliação de mentoria</title>
   </head>
   <body>
-    <header>
-      <div id="headerdiv">
-        <h1>Avalie sua mentoria</h1>
-        <p>Chegou a hora de avaliar o seu mentor. Bora lá?</p>
-        <img
-          src="./assets/background-color-header.svg"
-          alt="Balão cor salmão com 5 estrelas para avaliar o mentor."
-        />
-      </div>
-      <div>
-        <h2>Informações Pessoais</h2>
+    <header class="header">
+      <div class="container">
+        <div class ="header__row">
+          <h1 class="header__title">Avalie sua mentoria</h1>
+          <p class="header__text">Chegou a hora de avaliar o seu mentor. Bora lá?</p>
+          <img
+            src="./img/header-rate.svg"
+            alt="Balão cor salmão com 5 estrelas para avaliar o mentor."
+          />
+        </div>
       </div>
     </header>
-    <body>
+    <main>
+      <div class="form__title-bg">
+        <div class="container">
+          <div class="form__title-wrapper">
+            <h2 class="form__title">Informações Pessoais</h2>
+          </div>
+        </div>
+      </div>
+      <div class="container">
       <form action="">
         <div id="flexname">
           <div class="">
@@ -89,6 +97,7 @@
 
         <button>Salvar</button>
       </form>
-    </body>
+  </div>
+    </main>
   </body>
 </html>
